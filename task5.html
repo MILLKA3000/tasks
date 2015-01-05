@@ -8,33 +8,33 @@
  
  <body>
  
- <form action="task5.html" method="post">
+ <form action="task5.html" method="get">
  
  <table>
  <tr>
  <td><b>Імя</b></td>
- <td><input type="text" size="30"></td>
+ <td><input type="text" size="30" name="firstname"></td>
  </tr>
  <tr>
  <td><b>Прізвище</b></td>
- <td><input type="text" size="30"></td>
+ <td><input type="text" size="30" name="lastname"></td>
  </tr>
  <tr>
  <td><b>По-батькові</b></td>
- <td><input type="text" size="30"></td>
+ <td><input type="text" size="30" name="fathername"></td>
  </tr>
  </table>
 
-<p><b>Місце проживання</b><br><input type="text" size="60"></p>
+<p><b>Місце проживання</b><br><input type="text" size="60" name="sity"></p>
 
-<p><b>Місце роботи</b><br><input type="text" size="60"></p>
+<p><b>Місце роботи</b><br><input type="text" size="60" name="work"></p>
 
 <b>Посада</b><br>
-<select>
+<select name="mywork">
 <option></option>
-<option>Програміст</option>
-<option>Інженер</option>
-<option>Прибиральник</option>
+<option value="programer">Програміст</option>
+<option value="inginer">Інженер</option>
+<option value="kliner">Прибиральник</option>
 </select>
 <br><br>
 
@@ -45,11 +45,11 @@
 <br><br>
 
 <b>Моя зайнятість</b><BR>
-<select>
+<select name="job">
 <option></option>
-<option>Працюю</option>
-<option>Роблю вигляд що працюю</option>
-<option>Шарюсь(не працюю)</option>
+<option value="pracyy">Працюю</option>
+<option value="meybepracyy">Роблю вигляд що працюю</option>
+<option value="chara">Шарюсь(не працюю)</option>
 </select>
 <br><br>
 
@@ -65,11 +65,11 @@
 <table>
 <tr>
 <td><b>Логін</b></td>
-<td> <input type="text" size="30"></td>
+<td> <input type="text" size="30" name="login"></td>
 </tr>
 <tr>
 <td><b>Пароль</b></td>
-<td> <input type="password" size="30"></td>
+<td> <input type="password" size="30" name="password"></td>
 </tr>
 </table>
 <br>
